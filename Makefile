@@ -6,7 +6,7 @@ collatz: main.c
 	gcc -o $(bin) main.c
 
 clean:
-	rm -f $(bin) *.o
+	rm -f $(bin)
 
 run:
 	./collatz
